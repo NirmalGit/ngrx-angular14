@@ -13,9 +13,5 @@ export class HomeComponent {
     { make: 'Maruti', model: 'baleno', price: 4000 },
   ];
 
-  colDefs: ColDef[] = [
-    { field: 'make' },
-    { field: 'model' },
-    { field: 'price' },
-  ];
+  colDefs: ColDef[] = [{ field: 'make' }, { field: 'model' }, { field: 'price' }];
 }
